@@ -1,0 +1,92 @@
+.home header {
+  padding: 2.8rem 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary-color);
+}
+.home header h2 {
+  color: var(--primary-color);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.home nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.home nav a {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  color: var(--primary-color);
+}
+.home .section-hero {
+  border-bottom: 1px solid;
+  display: flex;
+  padding-inline: 7rem;
+  align-items: center;
+  gap: 5rem;
+  border-radius: 10px;
+  padding-bottom: 5rem;
+  border-color: #FFFFFF;
+}
+.home .primeiro-texto {
+  color: azure;
+  font-size: 6rem;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 8px;
+}
+.home .paragrafo {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 2.3rem;
+}
+.home .contact-me {
+  display: flex;
+  gap: 1rem;
+}
+.home .contact-me a {
+  background-color: #54f10b;
+  width: 3.8rem;
+  height: 3.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #0a0a0a;
+}
+.home .contact-me button {
+  color: #0a0a0a;
+  font-weight: bold;
+  padding: 1.1rem 2.5rem;
+  background-color: #faeeee;
+  border: none;
+  border-radius: 2rem;
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+}
+.home section.projetos {
+  padding: 5rem 6.3rem;
+}
+.home section.projetos .title-projeto h2 {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 6rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.home section.projetos .title-projeto p {
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 2.5rem;
+}
+.home section.projetos .all-projetos img {
+  width: 480px;
+}
+.home section.projetos .all-projetos {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}/*# sourceMappingURL=style.css.map */

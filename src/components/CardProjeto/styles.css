@@ -1,0 +1,51 @@
+.card-projeto {
+  display: flex;
+}
+.card-projeto .img-container {
+  padding: 8rem 3rem;
+  background-color: #181818;
+  border-radius: 1rem;
+}
+.card-projeto .title-card {
+  padding: 3.8rem 3rem;
+}
+.card-projeto .title-card .title-content {
+  padding-bottom: 1rem;
+}
+.card-projeto .title-card .title-content h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 1rem;
+}
+.card-projeto .title-card .title-content p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  margin-bottom: 2rem;
+}
+.card-projeto .title-card .info-projeto .projeto-detalhes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-block: 1rem;
+  border-bottom: 1px solid #484848;
+}
+.card-projeto .title-card .info-projeto .projeto-detalhes h4 {
+  color: #FFF;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+}
+.card-projeto .title-card p {
+  color: #FFF;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+}
+.card-projeto .title-card .projeto-git a {
+  color: #FFF;
+  border-radius: 20px solid red;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,153 @@
+.home {
+   header{
+    padding: 2.8rem 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--primary-color);
+
+    h2{
+        color: var(--primary-color);
+        font-family: "Bebas Neue" , sans-serif;
+        font-size:2rem;
+        font-weight:400 ;
+    }
+
+   }
+   nav{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    a {
+
+         text-decoration: none;
+        font-family: "Nunito Sans", sans-serif;
+        color: var(--primary-color);
+    }
+   }
+
+   
+
+  .section-hero{
+    border-bottom: 1px solid;
+    display: flex;
+    padding-inline: 7rem  ;
+    align-items: center;
+    gap: 5rem;
+    border-radius: 10px;
+    padding-bottom: 5rem;
+    border-color: #FFFFFF;
+
+    
+
+ 
+
+
+  }
+
+  .primeiro-texto{
+    color: azure;
+    font-size: 6rem;
+    font-weight: 400;
+    font-family: "Bebas Neue" , sans-serif;
+    margin-bottom: 8px;
+    
+  }
+ 
+  .paragrafo{
+    color:var(--primary-color);
+    font-size: 1.1rem;
+    margin-bottom:2.3rem ;
+    
+    
+  }
+
+
+   .contact-me{
+    display: flex;
+    gap:1rem;
+    
+    
+    a{
+
+
+         background-color: #54f10b;
+         width: 3.8rem;
+         height: 3.6rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50%;
+         color: #0a0a0a;
+    }
+
+    button{
+      color: #0a0a0a;
+      font-weight: bold;
+     padding: 1.1rem 2.5rem;
+     background-color:#faeeee  ;
+     border:none;
+     border-radius: 2rem;
+     font-family: "Manrope", sans-serif;
+     cursor: pointer;
+    }
+    
+    
+   
+  
+  
+   }
+
+
+   section.projetos{
+   padding: 5rem 6.3rem;
+
+    .title-projeto{
+      h2{
+        color: white;
+        font-family: "Bebas Neue" , sans-serif;
+        font-size: 6rem;
+        font-weight: 400;
+        margin-bottom: 8px;
+        
+       
+
+      } 
+      p{
+        font-size: 1.1rem;
+        color: white;
+        font-family: "Manrope" , sans-serif;
+        margin-bottom: 2.5rem;
+       }
+      
+    }
+
+    .all-projetos{
+
+      img{
+        width: 580px;
+
+        
+      }
+     
+    }
+
+    .all-projetos{
+      display: flex;
+      flex-direction: column;
+      gap: 7rem;
+
+
+    }
+    
+      
+    }
+
+    
+   }
+
+   
+   
+
+
+

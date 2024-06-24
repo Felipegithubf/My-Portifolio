@@ -96,36 +96,52 @@
   padding-bottom: 5rem;
   border-bottom: 1px solid grey;
 }
-.home .sobre-mim {
+.home .imagem-sobre {
   display: flex;
+  padding-inline: 7rem;
+  align-items: center;
+  gap: 5rem;
+  margin-left: 4px;
+  padding-bottom: 5rem;
+  border-color: #FFFFFF;
+}
+.home .sobre-mim {
+  margin-top: 150px;
   padding: 7rem 6.3rem;
 }
 .home .sobre-mim h2 {
   color: #faeeee;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 4.3rem;
+  font-size: 4rem;
   padding: 60px;
-  margin-top: -30px;
+  margin-top: -350px;
   margin-left: -50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .home .sobre-mim .descricao h3 {
   font-family: "Manrope", sans-serif;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   color: #dbdada;
   padding: 3rem;
   margin-left: -47px;
-  gap: 30px;
-}
-.home .sobre-mim .descricao p {
-  color: #c7c7c7;
-  padding: 20px;
-  margin-left: -23px;
-  font-size: 20px;
 }
 .home .sobre-mim .descricao h4 {
   color: #dfdc31;
   font-size: 1.2rem;
   margin-bottom: 10px;
-  margin-top: -30px;
+  margin-top: 0px;
+}
+.home .sobre-mim .descricao h1 {
+  color: #dbdada;
+  font-size: 40px;
+}
+.home header nav a {
+  transition: transform 0.3s ease-in-out;
+}
+.home header nav a:hover {
+  transform: scale(1.1); /* Zoom de 10% */
+  box-shadow: 0 0 5px rgb(0, 255, 0); /* Sombreamento verde */
 }/*# sourceMappingURL=style.css.map */

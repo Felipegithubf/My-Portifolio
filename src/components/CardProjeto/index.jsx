@@ -1,10 +1,13 @@
 import ImgProject from '../../assets/1.png'
 import "./styles.scss";
+import AttachFileIcon from '@mui/icons-material/AttachFile';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function CardProjeto() {
     return(
         <div className="card-projeto">
          <div className="img-container">
+            
             <img src={ImgProject} />
          </div>
          <div className="title-card">
@@ -37,18 +40,26 @@ function CardProjeto() {
                     <div className="projeto-git">
                         <a href='#'>
                     
-                          Demonstração <img src=''/>
+                         <p>Demonstração </p> 
 
 
                         </a>
+                        <a href="#"><AttachFileIcon /></a>
 
-                            
-                        
-                      </div>
-                      </div>
-
+                        <a href='#'>
+                    
                      
-        </div>
+
+
+                  </a>
+                
+                  <a href="#"><GitHubIcon /></a> 
+
+                  </div>
+                      </div>
+                      </div>
+
+
         
     )
 }

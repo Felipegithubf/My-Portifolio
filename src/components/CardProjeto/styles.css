@@ -25,6 +25,9 @@
   color: #FFF;
   margin-bottom: 2rem;
 }
+.card-projeto .title-card .info-projeto {
+  margin-bottom: 3rem;
+}
 .card-projeto .title-card .info-projeto .projeto-detalhes {
   display: flex;
   justify-content: space-between;
@@ -45,7 +48,17 @@
   font-size: 1rem;
   font-family: "Manrope", sans-serif;
 }
-.card-projeto .title-card .projeto-git a {
-  color: #FFF;
-  border-radius: 20px solid red;
+.card-projeto .title-card .projeto-git {
+  display: flex;
+}
+.card-projeto .title-card a {
+  color: #1fc25e;
+  gap: 58px;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */

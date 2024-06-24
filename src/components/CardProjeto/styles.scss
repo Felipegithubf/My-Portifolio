@@ -35,7 +35,7 @@
     }
 
     .info-projeto{
-
+        margin-bottom: 3rem;
          
 
         .projeto-detalhes{
@@ -73,10 +73,38 @@
        }
     
     
-       .projeto-git a {
-        color: #FFF;
+       .projeto-git{
+        display: flex;
+       
+
+
+       } 
+        
+       
+       a {
+        color: #1fc25e;
+        gap:58px;
+        display: flex;
+        border-radius: 20px;
+        align-items: center;
+        font-weight: 500;
+        font-size:1rem;
+        font-family: "Manrope", sans-serif;
+        text-decoration: none;
+       
+        
+        
         
        }
+
+       
+       }
+        
+   
+        
+
+        
+      }
     
 
-    }}
+    
